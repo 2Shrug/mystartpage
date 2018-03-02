@@ -46,9 +46,6 @@ a:hover {
 #name {
   color: #93386B;
 }
-#name:hover {
-  change: "Shrug";
-}
 
 .table1 {
   flex:1;
