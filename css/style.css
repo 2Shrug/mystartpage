@@ -30,8 +30,7 @@ h3 {
 }
 
 a {
-  display: flex;
-  justify-content: center;
+  margin: auto;
   text-decoration: none;
   color: inherit;
 }
@@ -39,6 +38,12 @@ a {
 a:hover {
   color:#E8A64F;
 }
+
+.tcontent {
+  display: flex;
+  flex-direction: column;
+}
+
 #startpage {
   color: #E8A64F;
 }
