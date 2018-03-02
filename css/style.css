@@ -1,0 +1,73 @@
+@import url('/home/shrug/.fonts/Profont For Powerline.ttf');
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+img {
+  height: 200px;
+}
+#main_header {
+  text-transform: capitalize;
+  text-align: center;
+}
+html{
+  background-color: #161616;
+  color: #D5D5D5
+}
+body {
+  font-family: 'ProFont For Powerline', sans-serif;
+  font-weight: 300;
+  margin: 0px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
+  color:#E8A64F;
+
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color:#E8A64F;
+}
+#startpage {
+  color: #E8A64F;
+}
+
+#name {
+  color: #93386B;
+}
+#name:hover {
+  change: "Shrug";
+}
+
+.table1 {
+  flex:1;
+}
+
+.table2 {
+  flex:1;
+}
+.table3 {
+  flex:1;
+}
+.table4 {
+  flex:1;
+}
+
+.container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 80px;
+}
