@@ -73,3 +73,30 @@ a:hover {
   justify-content: space-around;
   margin-top: 80px;
 }
+
+
+#quotes {
+  display:flex;
+  height: auto;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#quotes-container{
+  margin-top: 150px;
+  line-height: 1px;
+}
+
+#quote{
+  margin: 0px;
+  display: flex;
+  opacity: 0.3;
+}
+
+#author{
+  display: flex;
+  justify-content: right;
+  font-size: 0.7em;
+  opacity: 0.2;
+  font-weight: bold;
+}
