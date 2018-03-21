@@ -1,4 +1,4 @@
-@import url('/home/shrug/.fonts/Profont For Powerline.ttf');
+/* @import url('/home/shrug/.fonts/Profont For Powerline.ttf'); */
 
 .img {
   display: flex;
@@ -84,19 +84,22 @@ a:hover {
 
 #quotes-container{
   margin-top: 150px;
-  line-height: 1px;
+  position: relative;
 }
 
 #quote{
+  padding: 5px;
   margin: 0px;
   display: flex;
   opacity: 0.3;
+  overflow: hidden;
 }
 
 #author{
-  display: flex;
-  justify-content: right;
-  font-size: 0.7em;
-  opacity: 0.2;
-  font-weight: bold;
+    font-size: 0.7em;
+    opacity: 0.2;
+    font-weight: bold;
+    margin-top: 10px;
+    position: absolute;
+    right: 0px;
 }
